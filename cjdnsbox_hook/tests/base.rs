@@ -78,5 +78,5 @@ macro_rules! format_config {
 #[test]
 fn base1() {
     let config = format_config!(admin_port=12345);
-    let mut ctrl = run("/home/cjdns/cjdns/cjdroute", &config, "./target/debug/libcjdnsbox_hook.so").unwrap();
+    let mut ctrl = run("/home/cjdns/cjdns/cjdroute", &config, "../target/debug/libcjdnsbox_hook.so").unwrap();
 }
