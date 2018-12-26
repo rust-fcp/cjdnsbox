@@ -1,0 +1,7 @@
+[package]
+name = "cjdnsbox"
+version = "0.1.0"
+authors = ["Valentin Lorentz <progval+git@progval.net>"]
+
+[dependencies]
+mktemp = "0.3.1"

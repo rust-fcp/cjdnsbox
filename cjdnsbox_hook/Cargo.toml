@@ -1,0 +1,11 @@
+[package]
+name = "cjdnsbox_hook"
+version = "0.1.0"
+authors = ["Valentin Lorentz <progval+git@progval.net>"]
+
+[dependencies]
+cjdnsbox = { path = "../cjdnsbox" }
+
+[lib]
+name = "cjdnsbox_hook"
+crate_type = ["dylib"]
