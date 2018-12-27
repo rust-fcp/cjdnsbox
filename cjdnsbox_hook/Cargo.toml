@@ -5,7 +5,9 @@ authors = ["Valentin Lorentz <progval+git@progval.net>"]
 
 [dependencies]
 cjdnsbox = { path = "../cjdnsbox" }
+libc = "0.2.45"
+lazy_static = "1.2.0"
 
 [lib]
 name = "cjdnsbox_hook"
-crate_type = ["dylib"]
+crate_type = ["cdylib"]
